@@ -1,0 +1,264 @@
+*{
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.top{
+    width: 100%;
+    height: 100px;
+    background: rgba(97,97,97,0.59);
+    overflow: hidden;
+}
+.main{
+    width:1226px ;
+    height:100%;
+    background-image: url("../logosss/69.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.top .main .logo{
+    width:280px ;
+    height:76px ;
+    background-image:url("../img/2017041411403829.png") ;
+    float: left;
+    margin-top:12px ;
+}
+.top .main .topNav{
+    width:700px ;
+    height:60px;
+    /*background: blue;*/
+    float: left;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.top .main .topNav ul{
+    box-sizing: border-box;
+}
+.top .main .topNav ul li{
+    float: left;
+    width: 140px;
+}
+.top .main .topNav ul li a{
+    font-size: 18px;
+    color: black;
+    line-height: 60px;
+    display:flex;
+    justify-content: center;
+}
+/*.top .main .topNav ul li:first-child a{*/
+    /*color:aqua;*/
+/*}*/
+.top .main .topNav ul li a{
+    width:auto;
+    height:140px;
+    border-bottom: 1px solid #b5b4ff;
+    overflow: hidden;
+    margin-bottom: 20px;
+    -webkit-animation-name:'dong';
+
+    /*动画持续时间*/
+    -webkit-animation-duration:6s;
+
+    /*动画速度曲线*/
+    -webkit-animation-timing-function: ease-in-out;
+
+    /*动画延迟时间*/
+    -webkit-animation-delay: 1s;
+
+    /*定义循环资料，infinite为无限次*/
+    -webkit-animation-iteration-count:infinite;
+
+    /*定义动画播放方式*/
+    /*animation-direction*/
+    -webkit-animation-direction: alternate;
+}
+@-webkit-keyframes "dong" {
+    0% {
+        width: 25px;
+        height: 25px;
+        margin-left: 1%;
+        border-radius: 50%;
+        border: 2px solid #fdff2f;
+        transform: rotateZ(0deg);
+
+    }
+
+    50% {
+        width: 60px;
+        height: 60px;
+        margin-left:25%;
+        border-radius: 50%;
+        border: 2px solid #fdff2f;
+        transform: rotateZ(180deg);
+    }
+
+    100% {
+        width: 100%;
+        height: 140px;
+        margin-left:50%;
+        border-radius: 50%;
+        border: 2px solid #fdff2f;
+        transform: rotateZ(360deg);
+    }
+}
+.top .main .topNav li a:hover{
+    color: aqua;
+    transform: scale(1.5,1.5);
+}
+.tup{
+    width:100%;
+    height:160px;
+    /*background: fuchsia;*/
+    margin-top:20px;
+}
+.tup .main .hentu{
+    width: 100%;
+    height: 160px;
+    background-image: url("../img/100.jpg");
+    background-size: cover;
+}
+.xia{
+    width:100%;
+    height: 420px;
+    /*background: #616161;*/
+    margin-top:50px;
+}
+.xia .main .xian{
+    width:1226px;
+    height:100px;
+    /*background: rgba(34,156,255,0.64);*/
+    border-bottom: 1px solid #8d8d8a;
+}
+.xia .main .xian a{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    line-height: 100px;
+}
+.xia .main .xian a:hover{
+    transform: scale(1.1,1.1);
+    transition:.5s;
+    text-shadow: 0 1px 1px red;
+}
+.xia .main .jieshao{
+    width: 300px;
+    height:240px;
+    background: #afb0ff;
+    float: left;
+    margin-top: 50px;
+    margin-right: 163px;
+}
+.xia .main .jieshao:nth-child(3){
+    float: right;
+    margin-right: 0;
+}
+.xia .main .jieshao:hover{
+    transform: scale(1.1,1.1);
+    transition:1s;
+    box-shadow:10px 10px 4px rgba(0,0,0,0.1);
+}
+.teacher{
+    width:100%;
+    height: 450px;
+    /*background: #616161;*/
+}
+.teacher .main .xian{
+    width:1226px;
+    height:100px;
+    /*background: rgba(34,156,255,0.64);*/
+    border-bottom: 1px solid #8d8d8a;
+}
+.teacher .main .xian a{
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    line-height: 100px;
+}
+.teacher .main .xian a:hover{
+    transform: scale(1.1,1.1);
+    transition:.5s;
+    text-shadow: 0 1px 1px red;
+}
+.teacher .main .jianj{
+    width: 300px;
+    height:240px;
+    background: #afb0ff;
+    float: left;
+    margin-top: 50px;
+    margin-right: 163px;
+}
+.teacher .main .jianj:nth-child(3){
+    float: right;
+    margin-right: 0;
+}
+.teacher .main .jianj:hover{
+    transform: scale(1.1,1.1);
+    transition:1s;
+    box-shadow:10px 10px 4px rgba(0,0,0,0.2);
+}
+.foot{
+    width: 100%;
+    height:300px;
+    background:#f6f6f6 ;
+    margin-top: 80px;
+    padding-top: 60px;
+}
+.foot .dibu{
+    width:1226px ;
+    height:300px ;
+    margin:0 auto ;
+    /*background:red ;*/
+    overflow: hidden;
+    position: relative;
+}
+.foot .dibu .logo{
+    margin: 0 0 0 473px ;
+}
+.foot .dibu .logo img:hover{
+    transform: scale(1.3,1.3);
+}
+.foot .dibu .box{
+    width: 100%;
+    height:100px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.foot .dibu .box .box1{
+    width: 100%;
+    height: 24px;
+    /*background: blue;*/
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+.foot .dibu .box .box1:nth-child(1){
+    margin-top: 0;
+}
+.foot .dibu .box .box1 span{
+    font-size:20px;
+    display: flex;
+    justify-content: center;
+}
+.foot .dibu .saoma{
+    width:100px;
+    height:100px;
+    background-image: url("../img/000.jpg");
+    background-size: cover;
+    float: right;
+    position:absolute;
+    right:50px ;
+    top:99px ;
+}
+.foot .dibu .saoma:hover{
+    transform: scale(1.2,1.2);
+}
+
+
